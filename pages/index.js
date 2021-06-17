@@ -15,7 +15,6 @@ export default function Home(props) {
 
 export async function getStaticProps(context) {
   const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-
   return {
     props: {
       data: res.data,

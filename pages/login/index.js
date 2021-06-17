@@ -1,7 +1,10 @@
+import { FormLayout } from "../../components/StyledElements";
+import Form from "../../components/Form";
+
 export default function Login() {
   return (
-    <div>
-      <h1>login</h1>
-    </div>
+    <FormLayout>
+      <Form />
+    </FormLayout>
   );
 }
